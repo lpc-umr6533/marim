@@ -1,6 +1,10 @@
 The open-source GATE MARIM database is calculating mean energy deposited per decay in MeV Bq<sup>-1</sup> s<sup>-1</sup> and Dose Conversion Coefficients (DCCs) in μGy h<sup>-1</sup> per Bq kg<sup>-1</sup> produced for 15 𝛼-emitting radionuclides present in 238U and 232Th decay chains for microorganism diameters ranging from 0.5 to 1200 μm.
 Fig. 1 summarizes the composition of the database with all parameters (exposures, microorganism diameter, porosity, and radionuclides) considered for this study.
 
+<p align="center">
+    <img src="figs/data_structure.png" />
+</p>
+
 GATE version 9.4 based on Geant4 version 11.2 has been used to calculate energies and DCCs.
 Radionuclides were homogeneously distributed in the microorganism (made of liquid water) for internal exposure and in a sphere surrounding the microorganism for external exposure.
 When considering external exposure, three different environmental compositions were considered: water, dry sediments (quartz), and a mixture containing 50% of water and 50% of dry sediments.  
